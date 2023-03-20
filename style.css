@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* font-family: 'Roboto', sans-serif; */
-
 body{
     background-color: antiquewhite;
 }
@@ -104,8 +102,8 @@ nav ul li{
     transition: opacity 0.4s ease-in;
     margin-top: 8px;
 }
-@media only screen and (max-width:1100px){
+/* @media only screen and (max-width:1100px){
     body{
         background-color:blueviolet;
     }
-}
+} */
