@@ -1,5 +1,3 @@
-console.log("Welcome to Spotify");
-
 //Initialize the variables
 let songIndex = 0; //Initilialy zero songs will be played
 let audioElement = new Audio("./song/1.mp3");
@@ -42,7 +40,6 @@ songItems.forEach((element, i) => {
   element.getElementsByTagName("img")[0].src = songs[i].coverPath;
   element.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 });
-//audioElement.play()
 
 //Handle play/pause click
 masterPlay.addEventListener("click", () => {
